@@ -1,0 +1,111 @@
+.productcard {
+  width: 416px;
+  height: 481px;
+  border-radius: 18px;
+  background: #FFF;
+  box-shadow: 4px 4px 20px -10px rgba(0, 0, 0, 0.25);
+  @media screen and (max-width: 1024px) {
+  width: 347px;    
+  height: 401px;
+  margin: 10px auto;
+  }
+
+  .productcard-img {
+    display: block;
+    height: 269px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 18px 18px 0 0;
+    @media screen and (max-width: 1024px) {
+height: 224px;
+      }
+  }
+
+  .productcard-name {
+    height: 25px;
+    margin: 0;
+    padding: 15px 33px 0 33px;
+    color: #454444;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+  }
+
+  .productcard-quan {
+    padding: 11px 33px 0 33px;
+    color: #A7A7B2 ;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .productcard-subtitle {
+    height: 18px;
+    padding: 9px 33px 0 33px;
+    color: #A7A7B2;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  .productcard-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 33px 0 33px;
+    @media screen and (max-width: 1024px) {
+          padding: 20px 33px 0 33px;
+    }
+
+    .productcard-price {
+      color: #9A9999;
+
+      font-family: 'Gilroy', sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 0;
+
+      .card-price-text {
+        margin: 2px 0px;
+      font-family: 'Gilroy', sans-serif;
+
+      }
+
+      .istom-text {
+        font-family: 'Gilroy', sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+
+    .cart-btn {
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      @media screen and (max-width: 1024px) {
+        width: 43px;
+        height: 43px;
+  }
+    }
+
+
+
+  }
+}

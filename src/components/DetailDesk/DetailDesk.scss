@@ -1,0 +1,71 @@
+.detaildesk {
+  margin: 72px;
+  padding: 20px 0 58px 0;
+  border-top: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  @media screen and (max-width: 1024px) {
+    width: 347px;
+    margin: 0 auto;
+  }
+  &-specification{
+    &__title {
+      color: #454444;
+font-family: Unbounded;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 44px; /* 244.444% */
+text-transform: uppercase;
+    }
+    &__subtitle {
+      color: #454444;
+font-family: "Gilroy" , sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+text-transform: capitalize;
+margin-bottom: 56px;
+    }
+  }
+  &-params{
+    &__title {
+      color: #454444;
+      font-family: Unbounded;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 44px; /* 244.444% */
+      text-transform: uppercase;
+    }
+    &__list {
+      color: #454444;
+font-family: "Gilroy" , sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+text-transform: lowercase;
+    }
+  }
+  &-advan {
+    &__title {
+      color: #454444;
+      font-family: Unbounded;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 44px; /* 244.444% */
+      text-transform: uppercase;
+    }
+    &__list {
+      color: #454444;
+      font-family: "Gilroy" , sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px; /* 187.5% */
+      text-transform: lowercase;
+    }
+  }
+}

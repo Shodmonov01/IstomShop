@@ -1,0 +1,118 @@
+.homebanner {
+
+  display: flex;
+  justify-content: center;
+  gap: 115px;
+  @media screen and (max-width: 1024px) {
+    // display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     gap: 0px;
+     
+  }
+
+
+
+
+
+  .homebanner-left {
+    // left: 800px;
+    z-index: 1;
+    background-image: url(../../assets/images/pngwing.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    // background-size: ;
+    padding: 110px 0 0px 75px;
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    @media screen and (max-width: 1024px) {
+      background-size: 50%;
+      align-items: center;
+      padding: 62px 0 53px 0 ;
+    }
+
+
+    .homebanner-title {
+      // padding: 100px;
+
+      max-width: 638px;
+      font-family: Unbounded;
+      font-size: 32.5px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 44px;
+      /* 135.385% */
+      text-transform: uppercase;
+      @media screen and (max-width: 1024px) {
+        text-align: center;
+        font-family: Unbounded;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 27px; /* 150% */
+        text-transform: uppercase;
+      }
+
+
+    }
+
+    .homebanner-subtitle {
+      width: 620px;
+      color: rgba(0, 0, 0, 0.60);
+
+      font-family: 'Gilroy', sans-serif;
+
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      @media screen and (max-width: 1024px) {
+        width: 308px;
+        color: rgba(0, 0, 0, 0.60);
+        text-align: center;
+        font-family: "Gilroy" , sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+      }
+
+    }
+
+    .homebanner-button {
+      margin-top: 50px;
+      width: 204px;
+      height: 52px;
+      color: #FFF;
+      font-family: "Gilroy" , sans-serif;
+
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+  }
+
+  .homebanner-right {
+
+    background-image: url(../../assets/images/dots2.png);
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
+    background-size: 100%;
+
+    img {
+      width: 90%;
+      @media screen and (max-width: 1024px) {
+width: 100%;
+      }
+    }
+
+
+
+    // position: absolute;
+    // right: 1000px;
+  }
+}
