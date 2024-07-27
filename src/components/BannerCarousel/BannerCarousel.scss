@@ -1,0 +1,169 @@
+.bannercarousel {
+  margin: 100px auto;
+  width: 1296px;
+  box-shadow: 4px 4px 19px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 15px;
+  @media screen and (max-width: 1024px) {
+    width: 347px;
+    border-radius: 10px;
+    // height: 633px;
+    
+      }
+  // background-image: url(../../assets/images/vector3.png);
+  // background-repeat: no-repeat;
+  // background-position: 100% 0%;
+
+
+  .carousel-card {
+    // height: 441px;
+    display: flex;
+    align-items: center;
+    // background: #FFF;
+    // margin: 20px auto;
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      align-items: center;
+      
+        }
+
+
+    .carousel-card-left {
+      width:550px;
+      margin: 0px 0 15px 87px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      @media screen and (max-width: 1024px) {
+        width: 347px;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 0 0 0;
+          }
+      
+
+      .carousel-title {
+        // padding: 50px 0 15px 87px;
+        width: 410px;
+        color: #000;
+        font-family: Unbounded;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        @media screen and (max-width: 1024px) {
+width: 268px;
+          font-size: 18px;
+  font-weight: 900;
+  line-height: 22px;
+
+  
+            }
+      }
+
+      .carousel-subtitle {
+        width: 421px;
+        // padding: 0px 0 15px 87px;
+        color: rgb(154, 153, 153);
+        font-family: "Gilroy" , sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+        // font-variant: small-caps;
+        @media screen and (max-width: 1024px) {
+
+
+width: 314px;
+  font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+            }
+
+      }
+
+      .carousel-btn {
+        // margin: 0px 0 15px 87px;
+
+        border-radius: 5px;
+        // border: 0.795px solid rgba(255, 165, 0, 0.86);
+        // box-shadow: 4.389px 4.389px 6.584px -2.195px rgba(0, 0, 0, 0.25);
+        // background-color: #FFF;
+        // color: rgba(255, 165, 0, 0.86);
+        // padding: 12px 37px;
+        width: 210px;
+        height: 61px;
+        font-family: "Gilroy" , sans-serif;
+font-size: 14.68px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0px;
+
+
+
+      }
+
+    }
+
+    .carousel-card-right {
+      // margin-top: 80px;
+      z-index: 1;
+      width: 350px;
+      padding: 0 180px;
+      background-image: url(../../assets/images/tools1.png), url(../../assets/images/tools2.png);
+      background-position: 5%, 90% 40%;
+      background-repeat: no-repeat;
+      background-size: 32%, 25%;
+      @media screen and (max-width: 1024px) {
+        width: 347px;
+        background-position: 0% 0%, 90% 0%;
+        background-size: 35%, 30%;
+        text-align: center;
+        padding: 0;
+        img {
+          width: 200px;
+          // width: %;
+        }
+        
+          }
+
+    }
+  }
+
+  // .bKOzTU {
+  //   left: 40px !important;
+  //   color: #ffa600 !important;
+  //   background-color: #ffffff00;
+  // }
+
+  // .bKOzTU:before {
+  //   content: '';
+  //   position: absolute;
+  //   left: 4px;
+  //   top: -5px;
+  //   width: 22px;
+  //   height: 22px;
+  //   border-top: solid 2px #ffa600;
+  //   border-right: solid 2px #ffa600;
+  // }
+
+  // .hUeBZS {
+  //   right: 60px !important;
+  //   color: #ffa600 !important;
+  //   background-color: #ffffff00;
+  // }
+
+  // .hUeBZS:before {
+  //   content: '';
+  //   position: absolute;
+  //   left: 4px;
+  //   top: -5px;
+  //   width: 22px;
+  //   height: 22px;
+  //   border-top: solid 2px #ffa600;
+  //   border-right: solid 2px #ffa600;
+  // }
+}

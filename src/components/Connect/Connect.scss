@@ -1,0 +1,235 @@
+.connect-title {
+  padding: 74px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.60);
+  gap: 20px;
+
+  font-family: Unbounded;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  @media screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
+
+}
+
+.connect {
+
+  padding: 80px 0 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 166px;
+  @media screen and (max-width: 1024px) {
+    // font-size: 22px;
+    // gap: 5px;
+        // padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .connect-left {
+    text-align: center;
+    width: 526px;
+    height: 758px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 4px 4px 25px -9px rgba(0, 0, 0, 0.20);
+    @media screen and (max-width: 1024px) {
+      width: 347px;
+    }
+
+    .con-left-title {
+      padding: 80px 0 0 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+
+      color: #2E303D;
+
+      font-family: Unbounded;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      @media screen and (max-width: 1024px) {
+        font-size: 15px;
+      }
+
+    }
+
+    .con-left-subtitle {
+      width: 321px;
+      // padding: 0px 0 0 118px;
+      margin: 12px auto;
+      color: #B8B8B8;
+
+      text-align: center;
+      font-family: 'Gilroy' sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+
+    }
+
+    .name-input {
+
+      padding: 0 auto;
+      color: var(--Dark, #9A9999);
+      text-align: center;
+      font-family: 'Gilroy', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+
+      p {
+        text-align: left;
+        padding: 5px 42px;
+      }
+
+      .connect-name {
+        padding: 0px 0 0 40px;
+        margin-bottom: 20px;
+        width: 400px;
+        height: 70px;
+
+        border: none;
+        border-radius: 5px;
+        background: #F5F5F5;
+        @media screen and (max-width: 1024px) {
+          width: 80%;
+        }
+      }
+    }
+
+    .number-input {
+
+      padding: 0 auto;
+      color: var(--Dark, #9A9999);
+      text-align: center;
+      font-family: 'Gilroy', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+      p {
+        text-align: left;
+        padding: 5px 42px;
+      }
+
+      .connect-number {
+        padding: 0px 0 0 40px;
+        margin-bottom: 20px;
+        width: 400px;
+        height: 70px;
+
+        border: none;
+        border-radius: 5px;
+        background: #F5F5F5;
+        @media screen and (max-width: 1024px) {
+          width: 80%;
+        }
+      }
+    }
+
+
+    .quest-input {
+
+      padding: 0 auto;
+      color: var(--Dark, #9A9999);
+      text-align: center;
+      font-family: 'Gilroy', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+      p {
+        text-align: left;
+        padding: 5px 42px;
+      }
+
+      .connect-quest {
+        padding: 0px 0 0 40px;
+        margin-bottom: 20px;
+        width: 400px;
+        height: 133px;
+
+        border: none;
+        border-radius: 5px;
+        background: #F5F5F5;
+        @media screen and (max-width: 1024px) {
+          width: 80%;
+        }
+
+      }
+    }
+
+    .connect-button {
+      margin-top: 30px;
+      padding: 25px 130px;
+      color: #FFF;
+
+      font-family: 'Gilroy', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      @media screen and (max-width: 1024px) {
+        width: 90%;
+      padding: 25px 30px;
+
+      }
+    }
+
+    .connect-done {
+      margin: 12px auto;
+
+      color: #B8B8B8;
+      width: 352px;
+      text-align: center;
+      font-family: 'Gilroy', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+
+  .connect-right {
+    /* Ваши текущие стили */
+  }
+
+  .connect-right-mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .connect-right {
+display: none;
+    }
+
+    .connect-right-mobile {
+      display: block;
+    }
+
+
+
+  }
+
+
+  
+}
